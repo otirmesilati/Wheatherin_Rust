@@ -7,9 +7,7 @@
     <cargoProject FILE="$PROJECT_DIR$/weather/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab99f76a-5ba3-48f7-a002-3fe119c31cf5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/weather/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/weather/target/.rustc_info.json" afterDir="false" />
-    </list>
+    <list default="true" id="ab99f76a-5ba3-48f7-a002-3fe119c31cf5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +85,7 @@
       <workItem from="1716636991268" duration="5454000" />
       <workItem from="1716645841026" duration="2310000" />
       <workItem from="1716650808968" duration="1380000" />
+      <workItem from="1716653835867" duration="83000" />
     </task>
     <servers />
   </component>
