@@ -74,10 +74,11 @@ fn display_weather_info(response: &WeatherResponse) {
     let weather_text_colored = match description.as_str() {
         "clear sky" => weather_text.bright_yellow(),
         "few clouds" | "scattered clouds" | "broken clouds" => weather_text.bright_blue(),
-        "overcast clouds" | "mist" | "haze" | "smoke" | "sand" | "dust" | "fog" | "squalls" => weather_text.dimmed(),
+        "overcast clouds" | "mist" | "haWaze" | "smoke" | "sand" | "dust" | "fog" | "squalls" => weather_text.dimmed(),
         "shower rain" | "rain" | "thunderstorm" | "snow" => weather_text.bright_cyan(),
         _ => weather_text.normal(),
     };
+    println!("{}", weather_text_colored);
 }
 
     fn get_temperature_emoji(temperature: f64) -> &'static str {
@@ -107,5 +108,29 @@ fn main() {
         let mut country_code = String::new();
         io::stdin().read_line(&mut country_code).expect("Failed to read input");
         let country_code = country_code.trim();
+
+        let api_key = "9a6efccc7cd195558461b90b9ab5fe9c";
+
+        match get_weather_info(&city, &country_code, api_key)
+        {
+            Ok(response) =>
+                {
+                    display_weather_info(&response);
+                }
+            Err(err) =>
+                {
+                    eprintln!("Error: {}", err);
+                }
+        }
+
+        println!("{}", "Do you want to search for weather in another city? (yes/no):".bright_green());
+        let mut input = String::new();
+        io::stdin().read_line(&mut input).expect("Failed to read input"); // Reading user input for continuation
+        let input = input.trim().to_lowercase();
+
+        if input != "yes" {
+            println!("Thank you for using our software!");
+            break; // Exiting the loop if user doesn't want to continue
+        }
     }
 }
