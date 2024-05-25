@@ -10,6 +10,11 @@
     <list default="true" id="ab99f76a-5ba3-48f7-a002-3fe119c31cf5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/target/.rustc_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/weather/target/.rustc_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/target/debug/deps/weather.exe" beforeDir="false" afterPath="$PROJECT_DIR$/weather/target/debug/deps/weather.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/target/debug/deps/weather.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/weather/target/debug/deps/weather.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/target/debug/weather.exe" beforeDir="false" afterPath="$PROJECT_DIR$/weather/target/debug/weather.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/target/debug/weather.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/weather/target/debug/weather.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +90,8 @@
       <updated>1716446013262</updated>
       <workItem from="1716446013956" duration="1198000" />
       <workItem from="1716565086578" duration="1005000" />
-      <workItem from="1716636991268" duration="4524000" />
+      <workItem from="1716636991268" duration="5454000" />
+      <workItem from="1716645841026" duration="1206000" />
     </task>
     <servers />
   </component>
