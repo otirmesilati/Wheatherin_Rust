@@ -1,7 +1,6 @@
 use std::io;
 use serde::Deserialize;
 use colored::*;
-use reqwest::Response;
 
 #[derive(Deserialize, Debug)]
 struct WeatherResponse
